@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/imgUsuario"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/img_prueba" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nombre"
+            android:id="@+id/txtNombrePart"
+            android:layout_alignTop="@+id/imgUsuario"
+            android:layout_toRightOf="@+id/imgUsuario"
+            android:layout_toEndOf="@+id/imgUsuario"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nickname"
+            android:id="@+id/txtNicknamePart"
+            android:layout_below="@+id/txtNombrePart"
+            android:layout_alignLeft="@+id/txtNombrePart"
+            android:layout_alignStart="@+id/txtNombrePart" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_below="@+id/imgUsuario"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/space" />
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/imgInvitar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/success"
+            android:layout_above="@+id/space"
+            android:layout_alignParentEnd="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_above="@+id/space"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tgh.desapp.EventosPages.Evento_participantes">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/listParticipantes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_alignParentTop="true"
+        android:divider="#b1aeae"
+        android:dividerHeight="1dp">
+    </ListView>
+</FrameLayout>

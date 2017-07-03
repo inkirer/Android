@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">DesApp</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario / Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_nombre">Nombre completo</string>
+    <string name="prompt_apellido">Apellido</string>
+    <string name="prompt_apodo">Usuario</string>
+    <string name="prompt_emaill">Email</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_register">Registrate</string>
+    <string name="action_register_activity">Registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">El Email es incorrecto</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_invalid_password_length">La contraseña es demasiado larga</string>
+    <string name="error_incorrect_password">El usuario o contraseña son incorrectos</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_field_expression">No se admiten espacios ni caracteres especiales</string>
+    <string name="error_field_expression_1">No se admiten caracteres especiales</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_home">Inicio</string>
+    <string name="title_activity_participantes">Invitar participante</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Cerrar sesion</string>
+    <string name="settings_back">Atras</string>
+
+    <!-- String settingeventos -->
+    <string name="nom_evento">Nombre evento</string>
+    <string name="desc_evento">Descripcion evento</string>
+    <string name="tipo_pago">Tipo de pago</string>
+    <string name="num_participantes">Número de participantes</string>
+    <string name="precio">Precio total(€)</string>
+    <string name="fecha_inicio">Fecha inicio</string>
+    <string name="hora">Hora</string>
+    <string name="crear_evento">Crear evento</string>
+    <string name="paypal">Paypal(€)</string>
+    <string name="no_precio">Sin precio</string>
+    <string name="provincia">Provincia</string>
+
+    <!-- GCM -->
+    <string name="server_registering">Registrando</string>
+    <string name="server_registered">Registrado</string>
+    <string name="server_register_error">Error en el registro</string>
+    <string name="server_unregistered">Servidor no registrado</string>
+    <string name="gcm_unregistered">No registrado</string>
+    <string name="gcm_deleted">Mensaje borrado</string>
+    <string name="gcm_error">Error GCM</string>
+    <string name="server_unregister_error">Server error</string>
+    <string name="gcm_recoverable_error">Nose que error</string>
+    <string name="title_activity_evento">Evento</string>
+    <string name="title_activity_eventos">Eventos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="eventos_list">Eventos</string>
+</resources>
